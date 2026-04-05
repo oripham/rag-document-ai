@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #e0f2fe; /* Nền xanh dương nhạt (Light Blue) */
+  --bg-sidebar: #f8fafc;
+  --text-main: #000000; /* Chữ đen hoàn toàn */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-size: 18px; /* Tăng kích thước chữ tổng thể */
+  overflow: hidden;
+}
+
+.chat-bubble-user {
+  background-color: #3b82f6; /* Xanh đậm cho người dùng */
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.chat-bubble-bot {
+  background-color: #ffffff; /* Trắng cho AI */
+  color: #000000;
+  font-size: 19px;
+  font-weight: 600; /* Làm nổi bật chữ của AI */
+  border: 2px solid #3b82f6;
+}
+
+/* Ẩn bớt hiệu ứng rườm rà */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}

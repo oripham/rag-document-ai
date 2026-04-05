@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+faiss-cpu
+pdfplumber
+python-docx
+easyocr
+sentence-transformers
+llama-cpp-python
+numpy
+nest-asyncio
+opencv-python
+pillow
+torch
+torchvision
+torchaudio --index-url https://download.pytorch.org/whl/cpu
