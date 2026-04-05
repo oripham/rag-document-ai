@@ -84,4 +84,4 @@ Nếu máy tính cá nhân không đủ cấu hình (thiếu GPU hoặc RAM ít)
 - **Streaming:** Phản hồi của chatbot được hiển thị theo dạng phát trực tiếp (streaming) mượt mà.
 
 ---
-*Dự án thực hiện trong quá trình thực tập tại Công ty TNHH FIAI.*
+
